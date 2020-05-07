@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mars Weather</title>
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <!-- Scripts -->
+    <script src="scripts/index.js" defer></script>
+
+</head>
+
+<body>
+
+    <main class="mars-current-weather">
+        <h1 class="main-title">Latest Weather at Elysium Plantitia</h1>
+
+        <div class="date">
+            <h2 class="section-title
+             section-title-date">Sol 377</h2>
+            <p class="date__day">December 18</p>
+        </div>
+        <div class="temp">
+            <h2 class="section-title">Temperature</h2>
+            <p class="reading">High: -20℃</p>
+            <p class="reading">Low: -189℉</p>
+        </div>
+        <div class="wind">
+            <h2 class="section-title">Wind</h2>
+            <p class="reading">75 kph</p>
+
+            <div class="wind__direction">
+                <p class="sr-only">45 Deg</p>
+                <div class="wind__arrow"></div>
+            </div>
+
+        </div>
+        <div class="info">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s,</p>
+            <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into electronic typesetting, remaining
+                essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+                PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+
+        <div class="unit">
+            <label for="cel">℃</label>
+            <input type="radio" id="cel" name="unit" checked>
+            <button class="unit__toggle"></button>
+            <label for="fah">℉</label>
+            <input type="radio" id="fah" name="unit">
+
+
+        </div>
+
+
+
+    </main>
+
+
+    <div class="previous-weather">
+        <!-- Add .show-weather to toggle and show the last 7 days -->
+        <button for="weather-toggle" class="show-previous-weather"> <span>&#8593</span> <span class="sr-only">Show
+                pervious
+                weather</span></button>
+
+        <h2 class="main-title previous-weather__title">Previous 7 days</h2>
+
+        <div class="previous-days">
+            <div class="previous-day">
+                <h3 class="previous-day__sol">Sol 381</h3>
+                <p class="previous-day__date">December 22</p>
+                <p class="previous-day-temp">High: -20*C</p>
+                <p class="previous-day-temp">Low: -189*C</p>
+                <button class="previous-day__more-info">More info</button>
+            </div>
+            <div class="previous-day">
+                <h3 class="previous-day__sol">Sol 381</h3>
+                <p class="previous-day__date">December 22</p>
+                <p class="previous-day-temp">High: -20*C</p>
+                <p class="previous-day-temp">Low: -189*C</p>
+                <button class="previous-day__more-info">More info</button>
+            </div>
+            <div class="previous-day">
+                <h3 class="previous-day__sol">Sol 381</h3>
+                <p class="previous-day__date">December 22</p>
+                <p class="previous-day-temp">High: -20*C</p>
+                <p class="previous-day-temp">Low: -189*C</p>
+                <button class="previous-day__more-info">More info</button>
+            </div>
+            <div class="previous-day">
+                <h3 class="previous-day__sol">Sol 381</h3>
+                <p class="previous-day__date">December 22</p>
+                <p class="previous-day-temp">High: -20*C</p>
+                <p class="previous-day-temp">Low: -189*C</p>
+                <button class="previous-day__more-info">More info</button>
+            </div>
+            <div class="previous-day">
+                <h3 class="previous-day__sol">Sol 381</h3>
+                <p class="previous-day__date">December 22</p>
+                <p class="previous-day-temp">High: -20*C</p>
+                <p class="previous-day-temp">Low: -189*C</p>
+                <button class="previous-day__more-info">More info</button>
+            </div>
+            <div class="previous-day">
+                <h3 class="previous-day__sol">Sol 381</h3>
+                <p class="previous-day__date">December 22</p>
+                <p class="previous-day-temp">High: -20*C</p>
+                <p class="previous-day-temp">Low: -189*C</p>
+                <button class="previous-day__more-info">More info</button>
+            </div>
+            <div class="previous-day">
+                <h3 class="previous-day__sol">Sol 381</h3>
+                <p class="previous-day__date">December 22</p>
+                <p class="previous-day-temp">High: -20*C</p>
+                <p class="previous-day-temp">Low: -189*C</p>
+                <button class="previous-day__more-info">More info</button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
